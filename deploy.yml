@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+    confd_version: 0.13.0
+  roles:
+    - confd
