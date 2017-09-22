@@ -2,5 +2,5 @@
 confd_version: 0.13.0
 confd: "confd-{{ confd_version }}-linux-amd64"
 confd_download: "https://github.com/kelseyhightower/confd/releases/download/v{{ confd_version }}/{{ confd }}"
-confd_home: /usr/bin/
+confd_home: /user/bin/
 confd_config: /etc/confd
